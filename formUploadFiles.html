@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>Removing unwanted objects in a photos</title>
+</head>
+
+<body>
+	<h4>upload images to merge</h4>
+	<h6>it create an image without the moving elements in the images</h6>
+
+	<p>the jpg images must have the same size, and should be different shot from the same place from position, to avoid overloading the server the max file size accepted is 300kb</p>
+
+	<form action="formProcess.php" method="post" enctype="multipart/form-data">
+		<label for="file0">Filename0:</label><input type="file" name="file[]" id="file0" accept="image/*"><br>
+		<label for="file1">Filename1:</label><input type="file" name="file[]" id="file1" accept="image/*"><br>
+		<label for="file2">Filename2:</label><input type="file" name="file[]" id="file2" accept="image/*"><br>
+		<label for="file3">Filename3:</label><input type="file" name="file[]" id="file3" accept="image/*"><br>
+		<label for="file4">Filename4:</label><input type="file" name="file[]" id="file4" accept="image/*"><br>
+		<label for="file5">Filename5:</label><input type="file" name="file[]" id="file5" accept="image/*"><br>
+		<label for="file6">Filename6:</label><input type="file" name="file[]" id="file6" accept="image/*"><br>
+		<label for="file7">Filename7:</label><input type="file" name="file[]" id="file7" accept="image/*"><br>
+		<label for="file8">Filename8:</label><input type="file" name="file[]" id="file8" accept="image/*"><br>
+		<label for="file9">Filename9:</label><input type="file" name="file[]" id="file9" accept="image/*"><br>
+
+		<button type="reset" value="Reset">Reset</button>
+		<button type="submit" value="submit">Submit</button> 
+	</form>
+
+</body>
+</html> 
