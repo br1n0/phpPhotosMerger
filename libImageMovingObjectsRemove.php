@@ -6,7 +6,7 @@
 * @license http://www.gnu.org/licenses/gpl-3.0.txt
 *
 *this is for removing unwanted objects in a photos
-*require the php module GD  for pixel maniplultions
+*require the php module GD  for pixel manipulations
 **/
 
 
